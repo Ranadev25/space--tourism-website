@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Tourism</title>
+  <link rel="shortcut icon" href="./../favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="section bg-[url('./../crew-imgs/background-crew-mobile.jpg')] sm:bg-[url(./../crew-imgs/background-crew-tablet.jpg)] lg:bg-[url(./../crew-imgs/background-crew-desktop.jpg)] bg-cover bg-no-repeat p-7 max-lg:pt-0 max-lg:pr-0 relative" id="homepage">
+    <nav class="nav flex justify-between items-center sticky top-0 w-[100%] z-20">
+      <img class="lg:w-10 lg:h-10 lg:pt-0  max-xl:pt-6 cursor-pointer" src="./../Shared/logo.svg" alt="">
+      <img class="w-7 hamburger sm:hidden absolute right-10 top-8" src="./../Shared/icon-hamburger.svg" alt="">
+      <img class="hidden icon-close absolute right-10 top-8 w-7" src="./../Shared/icon-close.svg" alt="">
+      <span class="w-[27%] h-[1px] bg-[#b3afafee] hidden lg:inline-block absolute top-8 right-[620px]"></span>
+      <ul class="navmenu text-white hidden sm:flex justify-center items-center gap-5 lg:gap-10 bg-[#4C5B71] sm:absolute lg:static top-0 right-0 h-24 lg:h-14 lg:top-7 pl-10 lg:pl-16 pr-20">
+        <li class="home"><a class="hover:border-b-2 border-red-400 py-9 lg:py-4 uppercase tracking-[.2rem] text-[13px] md:text-[11px] " href="/"><span class="hidden md:inline-block">00</span> Home</a></li>
+        <li class="destination"><a class="hover:border-b-2 border-red-400 py-9 lg:py-4 uppercase tracking-[.2rem] text-[13px] md:text-[11px] " href="/public/destination.html"><span class="hidden md:inline-block">01</span> Destination</a></li>
+        <li class="Crew"><a class="hover:border-b-2 border-red-400 py-9 lg:py-4 uppercase tracking-[.2rem] text-[13px] md:text-[11px] " href="/public/crew.html"><span class="hidden md:inline-block">02</span> Crew</a></li>
+        <li class="technology"><a class="hover:border-b-2 border-red-400 py-9 lg:py-4 uppercase tracking-[.2rem] text-[13px] md:text-[11px] " href="/public/technology.html"><span class="hidden md:inline-block">03</span> Technology</a></li>
+      </ul>
+    </nav>
+
+    
+
+    <div class="crew-content text-white text-center mt-32 lg:flex lg:container mx-auto lg:mt-42 sm:w-[80%] lg:w-[100%]">
+      <div class="crew-img lg:w-[50%]">
+        <h1 class=" text-[30px] tracking-[.2rem] lg:text-[20px] text-left">01 Pick your destination</h1>
+        <img class=" worldimg w-72 m-auto my-10" src="./../distination/image-moon.png" alt="">
+      </div>
+      <div class="crew-info lg:w-[50%] px-[10%]">
+        <ul class="flex justify-center gap-7">
+          <li><a class="mone pb-3 hover:border-b-2 border-[#ddd]" href="#">Moon</a></li>
+          <li><a class="mars pb-3 hover:border-b-2 border-[#ddd]" href="#">Mars</a></li>
+          <li><a class="europa pb-3 hover:border-b-2 border-[#ddd]" href="#">Europa</a></li>
+          <li><a class="titan pb-3 hover:border-b-2 border-[#ddd]" href="" >Titan</a></li>
+        </ul>
+        <h1 class="uppercase text-[80px] mt-5 lg:mt-2">Moon</h1>
+        <p class=" text-2xl my-10 leading-10 lg:text-sm lg:my-5"> See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <div class="speed pt-5 lg:mt-10 border-t-2 border-[#ccc] lg:flex justify-center gap-5">
+          <div class="distance mb-5">
+            <p>Avg. distance</p>
+            <h2 class="text-[30px]">384,400 km Est.</h2>
+          </div>
+          <div class="time">
+            <p>travel time</p>
+            <h2 class="text-[30px]">3 days</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="./../src/main.js"></script>
+</body>
+</html>
